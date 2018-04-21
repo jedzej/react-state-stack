@@ -1,0 +1,39 @@
+{
+  "name": "react-state-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rimraf dist",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedzej/react-state-stack.git"
+  },
+  "author": "Jedrzej Wiewiora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jedzej/react-state-stack/issues"
+  },
+  "homepage": "https://github.com/jedzej/react-state-stack#readme",
+  "dependencies": {
+    "react": "^16.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0-beta.42",
+    "@babel/node": "7.0.0-beta.42",
+    "@babel/plugin-proposal-pipeline-operator": "7.0.0-beta.42",
+    "@babel/plugin-transform-modules-commonjs": "7.0.0-beta.42",
+    "@babel/preset-env": "7.0.0-beta.42",
+    "@babel/preset-react": "7.0.0-beta.44",
+    "husky": "^0.14.3",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "4.0.0-beta.3",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
