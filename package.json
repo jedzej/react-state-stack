@@ -19,7 +19,7 @@
     "url": "https://github.com/jedzej/react-state-stack/issues"
   },
   "homepage": "https://github.com/jedzej/react-state-stack#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.3.2"
   },
   "devDependencies": {
